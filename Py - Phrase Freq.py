@@ -3,7 +3,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.collocations import *
 
 
-data = ["this", "is", "not", "a", "test", "this", "is", "real", "not", "a", "test", "this", "is", "this", "is", "real", "not", "a", "test"]
+data = ["test test test test test"]
 
 bigrams = ngrams(data, 2)
 
